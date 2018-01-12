@@ -96,7 +96,7 @@ Sharing groups consist of the following elements, each of which has its own page
 
 ![The summary tab of the sharing group tool](figures/sgpage4.png)
 
-*  **Summary:** Once everything is set up, MISP will summarise the sharing group in a highlighted text page, which is highly advised to be reviewed before submiting the new sharing group/editing the sharing group. Mistakes in the sharing group settings can lead to organisations that should not be involved in the sharing group getting access or organisations receiving unwanted editing rights to the sharing group. Keep in mind that even if you have submitted a sharing group, it is not propagated until an event/attribute receives the sharing group as the selected distribution.
+*  **Summary:** Once everything is set up, MISP will summarise the sharing group in a highlighted text page, which is highly advised to be reviewed before submitting the new sharing group/editing the sharing group. Mistakes in the sharing group settings can lead to organisations that should not be involved in the sharing group getting access or organisations receiving unwanted editing rights to the sharing group. Keep in mind that even if you have submitted a sharing group, it is not propagated until an event/attribute receives the sharing group as the selected distribution.
 
 ### Populate from Template
 
@@ -106,7 +106,7 @@ For users trying to populate an event, after clicking on the populate from templ
 ![Choose the most appropriate template for your event.](figures/template_choice.png)
 
 Once you have chosen a template, you'll be presented with the actual form contained within. Make sure you fill out as many fields as possible with the mandatory fields - marked by a star in a bracket such as this: (*) - are filled out.
-Templates are devided into sections, with each section having a title and a description in addition to a series of fields. Each field can be an attribute or a file attachment field. An attribute field has the following components:
+Templates are divided into sections, with each section having a title and a description in addition to a series of fields. Each field can be an attribute or a file attachment field. An attribute field has the following components:
 
 ![MISP will generate attributes based on the field's settings and the data that you provide.](figures/template_field.png)
 
@@ -293,7 +293,7 @@ Here is a list of the various tools you can use while using this feature:
 
 ### Event History:
 
-View the logs of the event that show how the event has changed over time, including the contribution from other organisations in the form of proposals. There are two ways to get to this view, either by clicking on View Event History on the side menu of an event view, or by clicking on a contribing organisation's logo on the event view. The latter will show a restricted form of the logs, showing only Proposals created by the selected organisation. The fields shown in this view are as described as follows:
+View the logs of the event that show how the event has changed over time, including the contribution from other organisations in the form of proposals. There are two ways to get to this view, either by clicking on View Event History on the side menu of an event view, or by clicking on a contributing organisation's logo on the event view. The latter will show a restricted form of the logs, showing only Proposals created by the selected organisation. The fields shown in this view are as described as follows:
 *   **Org**: The logo (or in the lack thereof a string representation) of the organisation.
 *   **Action**: Each entry in the log happens during an action, such as the creation, modification or deletion of data and some special actions (such as accepting a proposal). This field shows which action caused the entry to be created.
 *   **Model**: As described above, a log entry is generated on certain actions. This field shows which type of data was affected that caused the log entry to be created (such as a change to the event, the creation of an attribute, the discarding of a proposal, etc).
@@ -352,7 +352,7 @@ First go to Event Actions - Add Template to go to the event creation view.
 
 The following fields have to be filled out:
 *   **Name**: The name of the template should describe what type of an event it should be used to generate attributes.
-*   **Tags**: You can attach tags to the template - an event populated using the template would automatically receive the tag(s). Add new tags using the + button. If you chnage your mind about a tag you can remove it with the cross next to the tag name.
+*   **Tags**: You can attach tags to the template - an event populated using the template would automatically receive the tag(s). Add new tags using the + button. If you change your mind about a tag you can remove it with the cross next to the tag name.
 *   **Event Description**: A short description about the events that this template should be used for.
 *   **Share this template with others**: The template can be set to be usable by any organisation on the instance or only by the one that has created it.
 
@@ -369,7 +369,7 @@ The following fields have to be filled out:
 *   **Type**: The type or complex type used for any attributes created using this template element. Complex types allow for several related types to be used on data entry. For example, a "file" complex type element allows for filenames and hashes.
 *   **Use Complex types**: If the category permits it, switch to a complex type using this checkbox.
 *   **Automatically mark for IDS**: If checked, any attributes generated using this element will be marked for IDS exporting.
-*   **Mandatory element**: If the elemnt is marked as mandatory, then the template form can only be submitted by users if this field is filled out.
+*   **Mandatory element**: If the element is marked as mandatory, then the template form can only be submitted by users if this field is filled out.
 *   **Batch import element**: Allow for multiple values to be entered (separated by line breaks).
 
 **File Element**
@@ -451,7 +451,7 @@ In order to share data with a remote server via pushes and pulls, you need to re
 ![Make sure that you enter the authentication key that you have been given by the hosting organisation of the remote instance, instead of the one you have gotten from this one.](figures/add_server.png)
 
 *   **Base URL:** The URL of the remote server.
-*   **Organization:** The organisation that runs the remote server. It is very impoportant that this setting is filled out exactly as the organisation name set up in the bootstrap file of the remote instance.
+*   **Organization:** The organisation that runs the remote server. It is very important that this setting is filled out exactly as the organisation name set up in the bootstrap file of the remote instance.
 *   **Authkey:** The authentication key that you have received from the hosting organisation of the remote instance.
 *   **Push:** This check-box controls whether your server is allowed to push to the remote instance.
 *   **Pull:** This check-box controls whether your server can request to pull all data from the remote instance.
@@ -482,7 +482,7 @@ The platform is also [RESTfull](http://en.wikipedia.org/wiki/Representational_st
 Use any HTTP compliant library to perform requests.
 You can choose which format you would like to use as input/output for the REST calls by specifying the Accept and Content-Type headers.
 
-The following headers are required if you wish to recieve / push XML data:
+The following headers are required if you wish to receive / push XML data:
 **Authorization**: _your authorisation key_
 **Accept**: _application/xml_
 **Content-Type**: _application/xml_
@@ -659,7 +659,7 @@ Content-Type: application/xml
 </response>
 ```
 
-The respone from requesting an invalid page
+The response from requesting an invalid page
 
 ```xml
 <?xml version = "1.0" encoding = "UTF-8"?>
