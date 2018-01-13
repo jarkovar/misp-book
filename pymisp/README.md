@@ -30,7 +30,7 @@ You can install PyMISP by either using pip or by getting the last version from t
 pip install pymisp
 ~~~~
 
-#### Install the lastest version from repo
+#### Install the latest version from repo
 ~~~~
 git clone https://github.com/MISP/PyMISP.git && cd PyMISP
 python setup.py install
@@ -88,13 +88,13 @@ try:
 except NameError:
     pass
 ~~~~
-Just a few lines to be sure that pyhon 2 and 3 are supported
+Just a few lines to be sure that python 2 and 3 are supported
 ~~~~python
 def init(url, key):
     return PyMISP(url, key, True, 'json', debug=True)
 ~~~~
 This function will create a PyMISP object that will be used later to interact with the MISP instance.
-As seen in the [api.py](https://github.com/CIRCL/PyMISP/blob/master/pymisp/api.py#L85), a PyMISP object need to know both the url of the MISP instance and the API key to use. It can also take additionnal and not mandatory data, such as the use or not of SSL or the name of the export format.
+As seen in the [api.py](https://github.com/CIRCL/PyMISP/blob/master/pymisp/api.py#L85), a PyMISP object need to know both the url of the MISP instance and the API key to use. It can also take additional and not mandatory data, such as the use or not of SSL or the name of the export format.
 ~~~~python
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Create an event on MISP.')
@@ -275,8 +275,8 @@ Arguments:
 * **ids**: You can flag all attributes created during the transaction to be marked as \"to_ids\" or not.
 * **categ**: The category that will be assigned to the uploaded samples. Valid options are: Payload delivery, Artifacts dropped, Payload Installation, External Analysis.
 * **info**: Used to populate the event info field if no event ID supplied.
-* **analysis**: The analysis level of the newly created event, if applicatble. [0-2]
-* **threat**: The threat level ID of the newly created event, if applicatble. [1-4]
+* **analysis**: The analysis level of the newly created event, if applicable. [0-2]
+* **threat**: The threat level ID of the newly created event, if applicable. [1-4]
 * **comment**: Comment for the uploaded file(s).
 
 #### users_list.py 
