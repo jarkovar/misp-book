@@ -516,9 +516,9 @@
 *   **datetime**: Datetime in the ISO 8601 format
 *   **cpe**: Common platform enumeration
 *   **port**: Port number
-*   **ip-dst|port**: IP destination and port number seperated by a |
-*   **ip-src|port**: IP source and port number seperated by a |
-*   **hostname|port**: Hostname and port number seperated by a |
+*   **ip-dst|port**: IP destination and port number separated by a |
+*   **ip-src|port**: IP source and port number separated by a |
+*   **hostname|port**: Hostname and port number separated by a |
 *   **email-dst-display-name**: Email destination display name
 *   **email-src-display-name**: Email source display name
 *   **email-header**: Email header
@@ -551,7 +551,7 @@
 *   **frequent-flyer-number**: The frequent flyer number of a passenger
 *   **travel-details**: Travel details
 *   **payment-details**: Payment details
-*   **place-port-of-original-embarkation**: The orignal port of embarkation
+*   **place-port-of-original-embarkation**: The original port of embarkation
 *   **place-port-of-clearance**: The port of clearance
 *   **place-port-of-onward-foreign-destination**: A Port where the passenger is transiting to
 *   **passenger-name-record-locator-number**: The Passenger Name Record Locator is a key under which the reservation for a trip is stored in the system. The PNR contains, among other data, the name, flight segments and address of the passenger. It is defined by a combination of five or six letters and numbers.
