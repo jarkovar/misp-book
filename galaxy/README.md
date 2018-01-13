@@ -46,11 +46,11 @@ Here on the event view, we notice a blue frame under the metadatas with the titl
 
 ![GalaxyPopup](./figures/GalaxyPopup.png)
 
-A popup will appear proposising to explore a particular galaxy or all at the same time. Here, as we know we want to as a threat actor, we will choose the second option and scroll to find Sneaky Panda (We are courageous, aren't we?).
+A popup will appear proposing to explore a particular galaxy or all at the same time. Here, as we know we want to as a threat actor, we will choose the second option and scroll to find Sneaky Panda (We are courageous, aren't we?).
 
 ![NoSneakyPanda](./figures/NoSneakyPanda.png)
 
-Wait. No Sneaky Panda? Hm that's strange. Or maybe it is only registred as a alias. Let's have a look! To do so we will use the search field which stay on top of the list. So what do we get? Beijing Group, is it an alias of our threat actor.
+Wait. No Sneaky Panda? Hm that's strange. Or maybe it is only registred as an alias. Let's have a look! To do so we will use the search field which stay on top of the list. So what do we get? Beijing Group, is it an alias of our threat actor.
 
 ![Search](./figures/Search.png)
 
@@ -64,7 +64,7 @@ We have a match. So we select it and here we go.
 
 Clicking on the magnifying glass next to Threat actor redirects to the list of all threat actors
 Clicking on the magnifying glass next to Beijing Group redirects us to a page about this group
-Clicking on the addition symbole on the left of Beijing Group extends the module.
+Clicking on the addition symbol on the left of Beijing Group extends the module.
 
 ### Available Galaxies
 
